@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.container{
+    border: 2px solid rgb(114, 250, 255);
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+}
+#box{
+    border: 2px solid rgb(0, 247, 255);
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+}
+.inline-block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    margin: 10px;
+}
+.none {
+    display: none;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    margin: 10px;
+}
