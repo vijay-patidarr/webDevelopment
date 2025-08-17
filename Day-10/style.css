@@ -1,0 +1,38 @@
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px;
+display: inline-block;
+}
+.box {
+    background-color: blue;
+    position: relative;
+    width: 100%;
+    height: 200vh;
+}
+.box1 {
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    width: 100%;
+    height: 200vh;
+}
+.advance {
+    background-color: greenyellow;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.advance2 {
+    background-color: yellow;
+    position: sticky;
+    top: 20px;
+    left: 20px;
+}
+.advance3 {
+    background-color: pink;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+}
