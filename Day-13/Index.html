@@ -2,22 +2,26 @@
 <html lang="en">
 
 <head>
+    <!-- Basic setup and linking CSS files -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ecommerce site </title>
+    <!-- Linking our custom CSS and Font Awesome for icons -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
 </head>
 
 <body>
-    <!-- adding navigation bar -->
-
+    <!-- Navigation Bar Section -->
+    <!-- This is a sticky navbar with logo, menu items and icons -->
     <div class="main">
         <nav class="navbar">
             <ul>
+                <!-- Logo on the left side -->
                 <li class="logo">
                     <img src="logo.svg" alt="Logo" style="height:30px;">
                 </li>
+                <!-- Navigation links in the center -->
                 <div class="nav-links">
                     <li>Home</li>
                     <li>About</li>
@@ -26,18 +30,19 @@
                     <li>Blog</li>
                     <li>Contact</li>
                 </div>
+                <!-- Shopping and user icons on the right -->
                 <li class="icons">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-solid fa-user"></i>
-                    <i class="fa-regular fa-heart"></i>
-                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i> <!-- Search icon -->
+                    <i class="fa-solid fa-user"></i> <!-- User profile icon -->
+                    <i class="fa-regular fa-heart"></i> <!-- Wishlist icon -->
+                    <i class="fa-solid fa-bag-shopping"></i> <!-- Shopping bag icon -->
                 </li>
             </ul>
         </nav>
     </div>
 
-    <!-- adding hero banner -->
-
+    <!-- Hero Banner Section -->
+    <!-- Main banner with summer collection advertisement -->
     <div class="hero-banner">
         <div class="hero-text">
             <h2 class="head1">New Summer</h2>
@@ -52,53 +57,111 @@
         </div>
     </div>
 
-
+    <!-- Categories Section -->
+    <!-- Three main shopping categories with buttons -->
     <div class="categories">
+        <!-- Men's Collection Category -->
         <div class="first-category">
             <h2>Men Collection</h2>
             <button>Explore All <i class="fa-solid fa-arrow-right"></i></button>
         </div>
+        <!-- Women's Collection Category -->
         <div class="second-category">
             <h2>Women Collection</h2>
             <button>Explore All <i class="fa-solid fa-arrow-right"></i></button>
         </div>
+        <!-- Sports Collection Category -->
         <div class="third-category">
             <h2> Sports Collection</h2>
             <button>Explore All<i class="fa-solid fa-arrow-right"></i></button>
         </div>
     </div>
 
+    <!-- Special Offers Section -->
+    <!-- Two promotional offers for Adidas and Nike -->
     <div class="offer">
+        <!-- Adidas Summer Sale Offer -->
         <div class="offer1">
-            <p>
-                Adidas Shoes
-            </p>
+            <p>Adidas Shoes</p>
             <h3>The Summer Sale Off 50%</h3>
             <button>Shop Now</button>
         </div>
+        <!-- Nike Sports Offer -->
         <div class="offer2">
-            <p>
-                Nike Shoes
-            </p>
-            <h3>
-                Makes Yourself Keep Sporty
-            </h3>
+            <p>Nike Shoes</p>
+            <h3>Makes Yourself Keep Sporty</h3>
             <button>Shop Now</button>
-
         </div>
     </div>
-
-    <div class="footer">
-        <div class="footer-text">
-            <p>© 2023 Ecommerce Site. All rights reserved.</p>
+    <!-- bestseller products -->
+    <div class="bestseller">
+        <h2>Best Seller Products</h2>
+        
+        <div class="brands-container">
+            <div class="brands">all</div>
+            <div class="brands">adidas</div>
+            <div class="brands">puma</div>
+            
+            <div class="brands">nick</div>
         </div>
-        <div class="social-icons">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
+        <div class="bestseller-products">
+            <!-- Product 1 -->
+            <div class="product">
+                <h3>Runing Sneaker shoes</h3>
+                <h4> ₹ 600</h4>
+            </div>
+            <div class="product product2">
+                <h3> Sneaker shoes</h3>
+                <h4>₹ 700</h4>
+            </div>
+            <div class=" product product3">
+                <h3>fabric shoes</h3>
+                <h4>₹ 800</h4>
+            </div>
+            <div class="product">
+                <h3>Runing Sneaker shoes</h3>
+                <h4> ₹ 600</h4>
+            </div>
+            <div class="product product2">
+                <h3> Sneaker shoes</h3>
+                <h4>₹ 700</h4>
+            </div>
+            <div class=" product product3">
+                <h3>fabric shoes</h3>
+                <h4>₹ 800</h4>
+            </div>
         </div>
     </div>
-</body>
+            <!-- our special services section -->
+            <div class="services">
+                <div class="service1">
+                    <i class="fa-solid fa-truck"></i>
+                    <h3>Free Shipping</h3>
+                    <p>On all orders over $50</p>
+                </div>
+                <div class="service2">
+                    <i class="fa-solid fa-rotate"></i>
+                    <h3>Easy Returns</h3>
+                    <p>30-day hassle-free returns</p>
+                </div>
+                <div class="service3">
+                    <i class="fa-solid fa-headset"></i>
+                    <h3>24/7 Support</h3>
+                    <p>We're here to help you anytime</p>
+                </div>
 
-</html>
+            </div>
+
+            <!-- Footer Section -->
+            <!-- Copyright and social media links -->
+            <div class="footer">
+                <div class="footer-text">
+                    <p>© 2023 Ecommerce Site. All rights reserved.</p>
+                </div>
+                <!-- Social Media Icons -->
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
